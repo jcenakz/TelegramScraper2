@@ -66,4 +66,4 @@ def save_contacts_to_excel(chat_id, contacts):
     # Append the new contacts to the existing contacts, if they are not already in the list
     for index, row in contacts.iterrows():
         if row['ID'] not in existing_contacts['ID'].values:
-            existing_contacts = existing_contacts.append(row, ignore_index
+            existing_contacts = existing_contacts.append(row, ignore_index)
