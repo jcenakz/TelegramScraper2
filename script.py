@@ -5,7 +5,7 @@ import xlrd
 import os
 
 # Inizializzazione del bot Telegram
-bot = telegram.Bot('INSERISCI_IL_TOKEN_DEL_TUO_BOT_QUI')
+bot = telegram.Bot('5891586724:AAF76KqGash49FBnV50fmDRAqvAYfQsva8s')
 
 # Funzione che salva i contatti in un file XLS
 def rastrella(update, context):
